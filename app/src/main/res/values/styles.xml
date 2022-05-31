@@ -1,0 +1,15 @@
+<resources>
+    <style name="AppTheme"  parent="@style/Theme.Leanback" >
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Leanback</item>
+    </style>
+    <style name="AppThemeGuided"  parent="@style/Theme.Leanback.GuidedStep" >
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="guidedActionsBackground">@color/guidedstep_actions_background</item>
+        <item name="guidedActionsBackgroundDark">@color/guidedstep_actions_dark_background</item>
+    </style>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="preferences">
+
+        <Preference
+            android:key="preference"
+            android:title="basic prefs"
+            android:summary="basic prefs"/>
+
+        <Preference
+            android:key="stylized"
+            android:title="styles pref"
+            android:summary="styles pref"/>
+
+        <Preference
+            android:key="icon"
+            android:title="icon pref"
+            android:summary="icon pref"
+            android:icon="@android:drawable/ic_menu_camera"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

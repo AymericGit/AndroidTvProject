@@ -1,0 +1,24 @@
+*** Alors que nous n’avons pas encore fait les modifications pour une compatibilité Android TV,
+pourquoi l’application arrive-t-elle à se lancer ? ***
+-> l'application se lance car il y'a un main, bien qu'il soit vide, et ceci reste du Android
+
+
+*** Des éléments ont-ils changé ? ***
+-> Le thème de l'application est différent lors du lancement
+
+
+*** Que se passe-t-il si on n’appelle pas startEntranceTransition() après un prepareEntranceTransition() ? ***
+-> Chargement infini car à aucun moment on ne dit de changer d'état à l'application
+
+
+*** Cela fonctionne-t-il ? Si oui, qu’en est-il de l’ergonomie ? ***
+-> l'ergonomie de la notification ressemble à un gros rectangle au centre de l'écran avec un bouton en bas à droite
+   gardant le style de l'application, ceci s'adapte donc au style "Android TV"
+
+*** qu’est-ce qui s’affiche à l’écran ? ***
+-> une page en 2 partie s'affiche
+
+*** que se passe-t-il si vous cliquez sur l’un des deux sous-choix ? ***
+-> rien ne se passe, on revient juste en arrière dans les choix
+
+
